@@ -1,0 +1,21 @@
+{
+  "name": "__NAME__",
+  "version": "1.0.0",
+  "description": "__DESCRIPTION__",
+  "main": "index.js",
+  "repository": "__REPO_URL__",
+  "author": "__AUTHOR__",
+  "license": "__LICENSE__",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.13",
+    "@vuepress/plugin-search": "^2.0.0-rc.34",
+    "@vuepress/theme-default": "^2.0.0-rc.35",
+    "vuepress": "^2.0.0-rc.13",
+    "vuepress-plugin-markdown-define2": "^1.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs"
+  }
+}
