@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "__DESCRIPTION__",
   "main": "index.js",
-  "repository": "__REPO_URL__",
+  "repository": "https://github.com/Mango-Projects/VuePress-Pages-Template/",
   "author": "__AUTHOR__",
   "license": "__LICENSE__",
   "devDependencies": {

@@ -10,8 +10,18 @@ if (!repository) {
   throw new Error("repository field is required in package.json");
 }
 
+let base: "/" | `/${string}/` | undefined;
+
+if (!/\.github\.io\/?/.test(repository)) {
+  let repo = repository.split("/").filter(Boolean).at(-1);
+  if (repo === undefined) {
+    throw new Error("repository field in package.json is invalid");
+  }
+  base = `/${repo}/`;
+}
+
 export default defineUserConfig({
-  base: /\.github\.io\/?/.test(repository) ? "/" : `/${repository.split("/").at(-1)}/`,
+  base,
   bundler: viteBundler(),
 
   theme,
