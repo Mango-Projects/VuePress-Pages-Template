@@ -10,3 +10,9 @@
 2. Change Github Repository Settings
    1. Settings > Pages > Build and deployments > Source > Github Action
    ![](image.png)
+
+## Run Local
+
+```ps
+pnpm docs:dev
+```
