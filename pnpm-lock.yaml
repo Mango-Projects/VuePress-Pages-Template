@@ -9,16 +9,19 @@ importers:
   .:
     devDependencies:
       '@vuepress/bundler-vite':
-        specifier: ^2.0.0-rc.13
+        specifier: 2.0.0-rc.14
         version: 2.0.0-rc.14(@types/node@20.14.6)(sass@1.77.6)
       '@vuepress/plugin-search':
         specifier: ^2.0.0-rc.34
         version: 2.0.0-rc.36(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.6)(sass@1.77.6))(vue@3.4.29))
       '@vuepress/theme-default':
-        specifier: ^2.0.0-rc.35
+        specifier: 2.0.0-rc.36
         version: 2.0.0-rc.36(vuepress@2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.6)(sass@1.77.6))(vue@3.4.29))
+      vue:
+        specifier: ^3.4.29
+        version: 3.4.29
       vuepress:
-        specifier: ^2.0.0-rc.13
+        specifier: 2.0.0-rc.14
         version: 2.0.0-rc.14(@vuepress/bundler-vite@2.0.0-rc.14(@types/node@20.14.6)(sass@1.77.6))(vue@3.4.29)
       vuepress-plugin-markdown-define2:
         specifier: ^1.0.0
@@ -1370,7 +1373,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.14.6
 
   '@types/web-bluetooth@0.0.20': {}
 
